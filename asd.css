@@ -1,0 +1,167 @@
+@font-face {
+    font-family:moonbold ;
+    src: url(Fonts/Moon\ Bold.otf);
+}
+@font-face {
+    font-family:moonlight ;
+    src: url(Fonts/Moon\ Light.otf);
+}
+*{
+    font-family: moonlight;
+    box-sizing: content-box;
+    cursor: default;
+    color: #B84921;
+}
+
+
+body{
+    width: 90vw;
+    height: 150vh;
+    background-image: url("asd.jpg") ;
+    background-color: #BF8D7A;
+    background-blend-mode:darken;
+}
+.pasek{
+    
+    position: absolute;
+    top: 0;
+    height: 10vh;
+    width: 100%;
+    background: linear-gradient(to right ,#04090F, #40210F, #04090F);
+    background: 0;
+    z-index: 8;
+    left: 0;
+    overflow: hidden;
+}
+
+.pasek button{
+    font-size: 26px;
+    top: 0;
+    height: 10vh;
+    width: 15%;
+    margin-left: 6.5%;
+    background: 0;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    color: #B84921;
+    transition: 0.3s;
+}
+.pasek button:hover{
+    background-color: rgba(64, 33, 15, 0.25);
+    border: 50vh solid rgba(0, 0, 0, 0.5);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    color: #04090F;
+}
+
+.czesc1{  
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding: 20px;
+    text-align: center;
+    width: 50vw;
+    height: 50vh;
+    overflow: hidden;
+    position: absolute;
+    top: 30vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 30px;
+}
+
+
+.link{
+    font-size: 30px;
+    cursor: pointer;
+}
+.naglowek{   
+    font-family: moonbold;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-bottom: 60px;
+    
+}
+
+.buttons{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 10vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding: 20px;
+    text-align: center;
+    width: 50vw;
+    height: 20vh;
+    border-radius: 2px;
+    overflow: hidden; 
+    border-radius: 0px;
+    font-size: 15px;
+    line-height: 20vh;
+    position: absolute;
+    top: 90vh;
+}
+.bt1{
+    background-color: rgb(184, 73, 33,0.5);
+    font-size: 30px;
+    height: 40px;
+    width: 20%;
+    border: 0;
+    color: rgba(0, 0, 0,1);
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.bt2{
+    background-color: rgb(184, 73, 33,0.5);
+    font-size: 30px;
+    height: 40px;
+    width: 20%;
+    border: 0;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    text-align: center;
+    color: rgba(0, 0, 0,1);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.bt3{
+    background-color:rgba(184, 73, 33, 0.5);
+    font-size: 30px;
+    height: 40px;
+    width: 20%;
+    border: 0;
+    text-align: center;
+    color: rgba(0, 0, 0,1);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    color: #B84921;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #212121; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #682b15; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #B84921; 
+  }
+  
